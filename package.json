@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@wmfs/xml2csv": "^1.26.0"
+  }
+}
