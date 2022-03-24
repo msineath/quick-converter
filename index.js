@@ -30,4 +30,8 @@ xml2csv(
     // Logs error message (Null if no error.) and an expanded version of the result (successful result returns an entry count.)
     (error, result) => console.log(`ERROR: ${error}, RESULT: ${JSON.stringify(result)}`)
 );
-// After all of your values are entered, to create your .csv file, open your terminal and type node index.js
+/*
+   After all of your values are entered, to create your .csv file, open your terminal and type node index.js
+   IMPOTRANT NOTE: If there is a formatting error in your .xml file, it must be corrected first.
+   If you receive an error when running node index.js, use https://www.xmlvalidation.com/ to double check your .xml file!
+*/
